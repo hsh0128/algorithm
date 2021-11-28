@@ -16,7 +16,7 @@ int search(queue<pair<int, int> > nowVertex, int depth) {
 	int i, j;
 
 	while (!nowVertex.empty()) {
-		// 4¹æÇâÀ¸·Î Å½»öÀ» ÁøÇà
+		// 4ë°©í–¥ìœ¼ë¡œ íƒìƒ‰ì„ ì§„í–‰
 		i = nowVertex.front().first;
 		j = nowVertex.front().second;
 

@@ -23,7 +23,7 @@ void dfs(int nowVertex) {
 	dfsVisited[nowVertex] = 1;
 
 	for (iter = graph[nowVertex].begin(); iter != graph[nowVertex].end(); iter++) {
-		// ¹æ¹®ÇÏÁö ¾Ê¾ÒÀ» °æ¿ì
+		// ë°©ë¬¸í•˜ì§€ ì•Šì•˜ì„ ê²½ìš°
 		if (!dfsVisited[*iter]) {
 			dfs(*iter);
 		}
